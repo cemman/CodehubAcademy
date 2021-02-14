@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Code Hub Academy</string>
+    <string name="label_login">Login</string>
+    <string name="label_slogan">The best way to login</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+</resources>
