@@ -22,8 +22,8 @@ public class ConstraintActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onPostCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onPostCreate(savedInstanceState, persistentState);
+    public void onPostCreate(@Nullable Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
 
         Button btnLogin = findViewById(R.id.btn_login);
         btnLogin.setOnClickListener(new View.OnClickListener() {
